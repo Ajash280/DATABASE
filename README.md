@@ -10,3 +10,4 @@ CREATE VIEW hardware_suppliers AS SELECT supplier_id, supplier_name FROM supplie
 
 ALTER VIEW hardware_suppliers AS SELECT supplier_id, supplier_name, address, city FROM suppliers WHERE category_type = 'Hardware';
 SELECT * FROM hardware_suppliers;
+Ajay Ash
